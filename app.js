@@ -243,23 +243,19 @@ for ( var i = 0; i < objects.length; i ++ ) {
 
 // Add button event listeners
 
-var button = document.getElementById( 'table' );
-button.addEventListener( 'click', function ( event ) {
+document.getElementById( 'table' ).addEventListener( 'click', function ( event ) {
   transform( targets.table, 2000 );
 }, false );
 
-var button = document.getElementById( 'sphere' );
-button.addEventListener( 'click', function ( event ) {
+document.getElementById( 'sphere' ).addEventListener( 'click', function ( event ) {
   transform( targets.sphere, 2000 );
 }, false );
 
-var button = document.getElementById( 'helix' );
-button.addEventListener( 'click', function ( event ) {
+document.getElementById( 'helix' ).addEventListener( 'click', function ( event ) {
   transform( targets.helix, 2000 );
 }, false );
 
-var button = document.getElementById( 'grid' );
-button.addEventListener( 'click', function ( event ) {
+document.getElementById( 'grid' ).addEventListener( 'click', function ( event ) {
   transform( targets.grid, 2000 );
 }, false );
 

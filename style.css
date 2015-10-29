@@ -17,6 +17,7 @@ a {
 	bottom: 50px;
 	width: 100%;
 	text-align: center;
+	z-index: 9999;
 }
 
 .element {
